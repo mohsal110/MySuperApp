@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/one"
+    android:icon="@drawable/ic_home_black_24dp"
+
+    android:title="one"
+    />
+    <item
+        android:id="@+id/two"
+        android:icon="@drawable/ic_account_balance"
+        android:title="two"
+        />
+    <item
+        android:id="@+id/three"
+
+        android:icon="@drawable/ic_alarm_on_black_24dp"
+        android:title="three"
+
+        />
+</menu>
