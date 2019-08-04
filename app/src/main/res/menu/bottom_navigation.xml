@@ -4,18 +4,18 @@
     android:id="@+id/one"
     android:icon="@drawable/ic_home_black_24dp"
 
-    android:title="one"
+    android:title="منوی اصلی"
     />
     <item
         android:id="@+id/two"
         android:icon="@drawable/ic_account_balance"
-        android:title="two"
+        android:title="کیف پول"
         />
     <item
         android:id="@+id/three"
 
-        android:icon="@drawable/ic_alarm_on_black_24dp"
-        android:title="three"
+        android:icon="@drawable/ic_news"
+        android:title="اخبار"
 
         />
 </menu>

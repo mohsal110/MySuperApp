@@ -31,6 +31,11 @@ public class OneFragment extends Fragment {
         mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
         mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
         mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
+        mainMenu.add(new MenuElements("bank",R.drawable.ic_bank));
+        mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
+        mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
+        mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
+        mainMenu.add(new MenuElements("train ticket",R.drawable.ic_train));
 
         RecyclerView myrv = (RecyclerView) view.findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myAdapter = new RecyclerViewAdapter(getContext(),mainMenu);

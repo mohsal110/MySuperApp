@@ -16,7 +16,14 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
 
+    public static boolean registered=false;
     private DrawerLayout drawer;
+    public MainActivity(){
+
+    }
+    public MainActivity(boolean r){
+        registered=r;
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +65,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                             selectedfragment = new OneFragment();
                             break;
                         case R.id.two:
-                            selectedfragment = new TwoFragment();
+                            if(registered){
+                                selectedfragment = new TwoFragment();
+                            }else{
+                                selectedfragment = new RegisterFormFragment();
+                            }
+
                             break;
                         case R.id.three:
                             selectedfragment = new TreeFragment();
